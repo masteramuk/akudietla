@@ -9,7 +9,44 @@ This document explains the process of creating an SQLite database, reading data 
 ### **Objective**
 The goal is to create a centralized SQLite database (`dietary.db`) where all data from multiple files (CSV, Excel, PDF) will be stored in separate tables.
 
-### **Steps**
+### **Dataset processing**
+1. **Retrieve from online available sources for sample data**
+
+## database nutrition
+- https://www.fao.org/infoods/infoods/tables-and-databases/asia/en/
+
+**to crawl**
+- https://www.fao.org/4/X6878E/X6878E35.htm#grp1
+- https://www.fao.org/4/X6878E/X6878E34.htm#secc
+- https://www.fao.org/4/X6878E/X6878E33.htm#secb
+- https://www.fao.org/4/X6878E/X6878E27.htm#seca
+- https://www.fao.org/4/x5557e/x5557e04.htm#cereals
+- https://www.fao.org/4/x5557e/x5557e0a.htm#meat%20and%20meat%20products
+- https://www.fao.org/4/x5557e/x5557e08.htm#fresh%20vegetables
+- https://www.fao.org/4/x5557e/x5557e0b.htm#eggs
+- https://www.fao.org/4/x5557e/x5557e0c.htm#fish%20and%20shellfish
+- https://www.fao.org/4/x5557e/x5557e0d.htm#milk%20and%20cheese
+- https://www.fao.org/4/x5557e/x5557e0e.htm#oils%20and%20fats
+- https://www.fao.org/4/x5557e/x5557e0f.htm#miscellaneous
+- https://www.fao.org/4/x5557e/x5557e06.htm#sugars%20and%20syrups
+- https://www.fao.org/4/x5557e/x5557e0g.htm#cereals
+- https://www.fao.org/4/x5557e/x5557e0h.htm#starches%20and%20starchy%20roots
+- https://www.fao.org/4/x5557e/x5557e0i.htm#sugars%20and%20syrups
+- https://www.fao.org/4/x5557e/x5557e0j.htm#pulses,%20nuts,%20and%20seeds
+- https://www.fao.org/4/x5557e/x5557e0k.htm#fresh%20vegetables
+- https://www.fao.org/4/x5557e/x5557e0l.htm#fruits
+- https://www.fao.org/4/x5557e/x5557e0m.htm#meat%20and%20meat%20products
+- https://www.fao.org/4/x5557e/x5557e0n.htm#eggs
+- https://www.fao.org/4/x5557e/x5557e0o.htm#fish%20and%20shellfish
+- https://www.fao.org/4/x5557e/x5557e0p.htm#milk%20and%20cheese
+- https://www.fao.org/4/x5557e/x5557e0q.htm#oils%20and%20fats
+- https://www.fao.org/4/x5557e/x5557e0r.htm#miscellaneous
+- https://www.fatsecret.com/calories-nutrition/generic/nasi-lemak
+- https://www.snapcalorie.com/nutrition/roti_canai_nutrition.html
+
+2. **Data cleansing and removing irrelevant dataset**
+
+### **Database Creation and Data Upload**
 1. **Connect to SQLite Database**:
    - Use Python's `sqlite3` library to create and connect to the SQLite database.
    - If the database file (`dietary.db`) does not exist, it will be automatically created.
