@@ -76,7 +76,7 @@ The application will consist of the following components:
 3. **Install Required Libraries**:
    - Install dependencies (all free and open-source):
      ```bash
-     pip install transformers langchain sqlite3 pandas numpy
+     pip install transformers langchain pandas numpy
      ```
 
 4. **Initialize `.gitignore`**:
