@@ -163,3 +163,39 @@ Let's commit the initial setup to your GitHub repository.
 - Development can be done entirely on your local machine without requiring any paid services.
 - `sqlite3` is part of Python's standard library and does not need to be installed via `pip`.
 ```
+
+---
+
+```
+## database nutrition
+- https://www.fao.org/infoods/infoods/tables-and-databases/asia/en/
+
+**to crawl**
+- https://www.fao.org/4/X6878E/X6878E35.htm#grp1
+- https://www.fao.org/4/X6878E/X6878E34.htm#secc
+- https://www.fao.org/4/X6878E/X6878E33.htm#secb
+- https://www.fao.org/4/X6878E/X6878E27.htm#seca
+- https://www.fao.org/4/x5557e/x5557e04.htm#cereals
+- https://www.fao.org/4/x5557e/x5557e0a.htm#meat%20and%20meat%20products
+- https://www.fao.org/4/x5557e/x5557e08.htm#fresh%20vegetables
+- https://www.fao.org/4/x5557e/x5557e0b.htm#eggs
+- https://www.fao.org/4/x5557e/x5557e0c.htm#fish%20and%20shellfish
+- https://www.fao.org/4/x5557e/x5557e0d.htm#milk%20and%20cheese
+- https://www.fao.org/4/x5557e/x5557e0e.htm#oils%20and%20fats
+- https://www.fao.org/4/x5557e/x5557e0f.htm#miscellaneous
+- https://www.fao.org/4/x5557e/x5557e06.htm#sugars%20and%20syrups
+- https://www.fao.org/4/x5557e/x5557e0g.htm#cereals
+- https://www.fao.org/4/x5557e/x5557e0h.htm#starches%20and%20starchy%20roots
+- https://www.fao.org/4/x5557e/x5557e0i.htm#sugars%20and%20syrups
+- https://www.fao.org/4/x5557e/x5557e0j.htm#pulses,%20nuts,%20and%20seeds
+- https://www.fao.org/4/x5557e/x5557e0k.htm#fresh%20vegetables
+- https://www.fao.org/4/x5557e/x5557e0l.htm#fruits
+- https://www.fao.org/4/x5557e/x5557e0m.htm#meat%20and%20meat%20products
+- https://www.fao.org/4/x5557e/x5557e0n.htm#eggs
+- https://www.fao.org/4/x5557e/x5557e0o.htm#fish%20and%20shellfish
+- https://www.fao.org/4/x5557e/x5557e0p.htm#milk%20and%20cheese
+- https://www.fao.org/4/x5557e/x5557e0q.htm#oils%20and%20fats
+- https://www.fao.org/4/x5557e/x5557e0r.htm#miscellaneous
+- https://www.fatsecret.com/calories-nutrition/generic/nasi-lemak
+- https://www.snapcalorie.com/nutrition/roti_canai_nutrition.html
+```
