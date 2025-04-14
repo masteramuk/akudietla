@@ -29,6 +29,27 @@ All tools and technologies used in this project are **free and open-source**, en
 
 ---
 
+## **Dependencies**
+All required Python libraries are listed in the `requirements.txt` file. This file ensures that the project's environment can be replicated easily.
+
+### **Installing Dependencies**
+To install all required libraries, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### **Updating Dependencies**
+If you add new libraries to the project, update the `requirements.txt` file by running:
+
+```bash
+pip freeze > requirements.txt
+```
+
+This command regenerates the `requirements.txt` file with the latest dependencies.
+
+---
+
 ## **Application Architecture**
 
 ### **1. Key Components**
@@ -189,3 +210,13 @@ The application will consist of the following components:
    git add .
    git commit -m "Add <description>"
    git push origin main
+   ```
+
+---
+
+## **Key Notes**
+- All tools and frameworks used in this project are **free and open-source**.
+- Development can be done entirely on your local machine without requiring any paid services.
+- The `requirements.txt` file ensures that all dependencies are documented and can be easily installed.
+
+---
